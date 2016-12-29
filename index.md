@@ -1,7 +1,7 @@
 # OPS project : Build dev environment with Vagrant & Ansible
 
-[OPS project](/ops) on jebovic.github.io
-[OPS project](https://github.com/jebovic/ops) on Github
+* [OPS project](/ops) on jebovic.github.io
+* [OPS project](https://github.com/jebovic/ops) on Github
 
 # Ansible
 
