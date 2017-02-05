@@ -1,8 +1,3 @@
-# OPS project : Build dev environment with Vagrant & Ansible
-
-* [OPS project](/ops) on jebovic.github.io
-* [OPS project](https://github.com/jebovic/ops) on Github
-
 # Ansible
 
 ## Roles: All my ansible roles
@@ -16,7 +11,7 @@
 
 # Docker Images
 
-*Alpine 3.4 based images for LAMP / LEMP stack*
+*Alpine 3.5 based images for LAMP / LEMP stack*
 
 * Docker Hub: [https://hub.docker.com/u/jebovic/](https://hub.docker.com/u/jebovic/)
 
@@ -25,6 +20,11 @@
 * Travis CI : [https://travis-ci.org/jebovic](https://travis-ci.org/jebovic)
 * Codacy : [https://www.codacy.com](https://www.codacy.com)
 * Scrutinizer: [https://scrutinizer-ci.com](https://scrutinizer-ci.com)
+
+# OPS project : Build dev environment with Vagrant & Ansible
+
+* [OPS project](/ops) on jebovic.github.io
+* [OPS project](https://github.com/jebovic/ops) on Github
 
 # Author Information
 

@@ -3,24 +3,32 @@ Ops: Build dev environment with Vagrant & Ansible
 
 Steps to get your environment up:
 
-1. clone this repo : [OPS project](https://github.com/jebovic/ops)
+1. clone this repo
 2. use vagrant with virtualbox provider to get your VM up
 3. use ansible for VM provisioning
+
+## Compatibility
+
+Tested and approved on :
+
+* Debian jessie (8+)
+* Ubuntu Trusty (14.04 LTS)
+* Ubuntu Xenial (16.04 LTS)
 
 ## Vagrant : Create a Virtual Machine
 
 ### Install Vagrant
 
-All you need is installing [Vagrant](https://www.vagrantup.com/docs/installation).
+All you need is to install [Vagrant](https://www.vagrantup.com/docs/installation).
 
 ### Run a Virtual Machine
 
 Vagrant configuration (for virtualbox provider only) is present in the Vagrantfile, in the repository root.
 
-Create and up a VM from a simple command:
+Create and up a VM from a simple command (see Vagrantfile for the full list):
 
 ```
-vagrant up [golang,ci,weblemp,weblamp,docker,monitoring]
+vagrant up [golang,ci,weblemp,weblamp,docker,monitoring...]
 ```
 
 ## Ansible: Virtual Machine provisioning
@@ -71,6 +79,11 @@ ansible-galaxy install -r base.yml -p ../roles
 # Then you can add roles from a more specific playbook
 ansible-galaxy install -r monitoring.yml -p ../roles
 ```
+
+**My ansible roles**
+
+* Ansible galaxy: [https://galaxy.ansible.com/jebovic](https://galaxy.ansible.com/jebovic/)
+* Github: [https://github.com/jebovic](https://github.com/jebovic?utf8=%E2%9C%93&tab=repositories&q=ansible-&type=&language=)
 
 ### Run a playbook
 
